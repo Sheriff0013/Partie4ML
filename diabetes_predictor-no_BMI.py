@@ -79,7 +79,7 @@ models = {
         'model': SVC(),
         'params': {
             'C': [0.1, 1, 10, 100],
-            'kernel': ['rbf','sigmoid'],
+            'kernel': ['rbf'],
             'gamma': ['scale', 'auto']
         }
     },
